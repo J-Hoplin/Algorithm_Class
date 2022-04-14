@@ -5,8 +5,8 @@ Subject
 
 
 Code written by
-  - [Hoplin](https://github.com/J-hoplin1) : Implement with Python3
-  - [was564](https://github.com/was564) : Implement with C++
+  - [Hoplin (윤준호)](https://github.com/J-hoplin1) : Implement with Python3
+  - [was564 ()](https://github.com/was564) : Implement with C++
 ***
 
 ### Sorting
