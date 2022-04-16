@@ -14,7 +14,9 @@ def quicksort_middle_pivot(arr: MutableSequence, left: int, right: int) -> None:
             arr[pl], arr[pr] = arr[pr], arr[pl]
             pl += 1
             pr -= 1
-
+            
+     
+    # pl이 pr과 같거나 pr을 역전해야 끝나므로, pr이 왼쪽 부분의 끝, pl이 오른쪽 부분의 시작이 된다.
     if left < pr:
         quicksort_middle_pivot(arr, left, pr)
     if pl < right:
