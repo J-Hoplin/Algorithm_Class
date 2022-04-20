@@ -17,3 +17,4 @@ Contributers
   - [Merge Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/merge_sort)
   - [Quick Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
   - [Selection Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
+  - [Counting Sort](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort/CountingSort.py)
