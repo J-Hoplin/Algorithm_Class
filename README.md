@@ -13,6 +13,7 @@ Contributers
 
   - [Bubble Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/bubble_sort)
   - [Heap Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/heap_sort)
+    - [Priority Queue](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/heap_sort/priority_queue.py) 
   - [Insertion Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/insertion_sort)
   - [Merge Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/merge_sort)
   - [Quick Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
