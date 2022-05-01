@@ -8,7 +8,9 @@ Contributers
   - [Hoplin (윤준호)](https://github.com/J-hoplin1) : Implement with Python3
   - [was564 (김홍준)](https://github.com/was564) : Implement with C++
 ***
-
+### Programming Assignments
+  - [Assignment 1 : Iterative QuickSort / Recursive QuickSort / Randomized QuickSort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Programming%20Assignment/Assignment%201)
+***
 ### Sorting
 
   - [Bubble Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/bubble_sort)
