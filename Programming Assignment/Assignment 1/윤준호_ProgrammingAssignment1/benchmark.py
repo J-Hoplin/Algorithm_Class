@@ -1,4 +1,4 @@
-import os,platform,time,math,random,pprint,json,copy
+import os,platform,time,math,random,pprint,json,copy,threading
 from typing import Any,MutableSequence
 from quicksort_algorithms.recursive_quicksort import recursive_qsorts
 from quicksort_algorithms.Interactive_quicksort import interactive_qsorts
@@ -13,31 +13,41 @@ Last Edited Date : 2022 / 04 / 29
 '''
 
 class algorithm_tester(object):
-    test_set = list(map(int, [math.pow(10, 2), math.pow(10, 4), math.pow(10, 6)]))
+    #Class methods
+    start = 0
+    end = 0
+    test_set = list(map(int, [math.pow(10, 2), math.pow(10, 4),math.pow(10,6)]))
+
     def __init__(self):
         self.resultJSON = dict()
         self.testCase = None
-        # 최초 인스턴스 실행시
-        self.generateTestSet()
 
-    def dumpToJSON(self):
-        with open("result.json",'w') as f:
-            json.dump(self.resultJSON,f,indent=4)
+
+    @classmethod
+    def start_record(cls) -> None:
+        algorithm_tester.start = time.time()
+    @classmethod
+    def end_record(cls) -> None:
+        algorithm_tester.end = time.time()
+
+
+    def dumpToJSON(self,serializer,json_name) -> None:
+        with open(f"{json_name}.json",'w') as f:
+            json.dump(serializer,f,indent=4)
 
     # Generate Test case
     def generateTestSet(self) -> None:
         res = dict()
         for p, i in enumerate(algorithm_tester.test_set):
             sets = list()
-            for j in range(1, 21):
-                arr = random.sample([p for p in range(1, i + 1)], j)
-                random.shuffle(arr)
+            for _ in range(1, 21):
+                arr = [random.randint(1,i) for _ in range(i)]
                 sets.append(arr)
             res[f"Test_case_{p + 1}"] = sets
         self.testCase = res
 
-
-    def test_data(self,sortingInstance : utility,caseName:str,substractOneEndIndex:bool=False) -> None:
+    # Define access modifier as private
+    def __test_data(self,sortingInstance : utility,caseName:str,substractOneEndIndex:bool=False) -> None:
         result = dict()
         '''
         Document about test_data(function : function)
@@ -77,58 +87,65 @@ class algorithm_tester(object):
                 # Time estimate end
                 end = time.perf_counter() - start
 
-                # 측정 시간이 매우 작아 지수표현이 들어간다. 1000을 곱해 지수표현 없앤다.
                 resultCapsule[f"GroupSet_{j+1}"] = {
                     "SortingTime": end,
-                    "previous": previous,
-                    "sorted": arr,
                     "comparisonCount": sortingInstance.getComparisonCount()
                 }
                 # 각 테스트 케이스마다 comparison count를 비워준다.
                 sortingInstance.clearComparisonCount()
             result[f"{p}"] = resultCapsule
-
         self.resultJSON[caseName] = result
 
-    def stream(self):
-        # 재귀 퀵정렬
+    def stream(self) -> None:
+        # 최초 인스턴스 실행시
+        print("Generating Test Data Sets...\n")
+        self.generateTestSet()
+
+        qsort_instances = {
+            "Recursive": [recursive_qsorts(), False],# 재귀 퀵정렬
+            "Iterative": [interactive_qsorts(), False],# 순환 퀵정렬
+            "Randomized": [randomized_qsorts(), True],# 랜덤 퀵정렬
+        }
+
+        for i,j in qsort_instances.items():
+            instance, third_parameter = j
+            self.__test_data(instance, i, third_parameter)
+            print(f"Benchmarking : {i} Quick Sort... \n")
+
+        '''
         recursive_sort = recursive_qsorts()
-        # 순환 퀵정렬
-        interactive_sort = interactive_qsorts()
-        # 랜덤 퀵정렬
+        iterative_sort = interactive_qsorts()
         randomized_sort = randomized_qsorts()
-        print("""
-            Algorithm Programming Assignment #1
+        print("Benchmarking Case1 : Recursive Quick Sort - Pivot at End...\n")
+        self.__test_data(recursive_sort,"Recursive")
+        print("\nBenchmarking Case2 : Iterative Quick Sort...\n")
+        self.__test_data(iterative_sort,"Iterative")
+        print("\nBenchmarking Case3 : Randomized Quick Sort...\n")
+        self.__test_data(randomized_sort,"Randomized",True)
+        '''
 
-            < Quick Sort Cases > 
-            1. Recursive Quicksort
-            2. Interactive Quicksort 
-            3. Randomized Quciksort
+        '''
+        threads = []
 
-            < Test Cases - Representative >
-            1. 10 ** 2
-            2. 10 ** 4
-            3. 10 ** 6
+        for i,j in qsort_instances.items():
+            instance,third_parameter = j
+            newThread = threading.Thread(target=self.__test_data,args=(instance,i,third_parameter))
+            newThread.start()
+            pid = newThread.native_id
+            print(f"Start Thread[pid : {pid}] : Benchmarking {i} Quick Sort... ")
+            threads.append(newThread)
+
+        for i in threads:
+            i.join()
+        '''
 
 
-            """)
-        print("Benchmarking Case1 : Recursive Quick Sort - Pivot at End\n")
-        self.test_data(recursive_sort, "Recursive")
-        print("\nBenchmarking Case2 : Iterative Quick Sort\n")
-        self.test_data(interactive_sort, "Iterative")
-        print("\nBenchmarking Case3 : Randomized Quick Sort\n")
-        self.test_data(randomized_sort, "Randomized", True)
-        print("Convert Result to Json\n")
-        self.dumpToJSON()
-
-        print("[ Used test data set will be shown at below ] \n")
-
-        for i,j in self.testCase.items():
-            print(f"< {i} >")
-            for q,t in enumerate(j):
-                print(f"Randomly Pick {q + 1} elements : {t}")
-            print()
-
+        print("\nConvert Test Case to JSON...")
+        self.dumpToJSON(self.testCase, "Used_test_case")
+        print("\nConvert Result to JSON...\n")
+        self.dumpToJSON(self.resultJSON,"result")
+        algorithm_tester.end_record()
+        print(f"Benchmark Complete! Total execution time {(algorithm_tester.end - algorithm_tester.start):0.2f}sec")
 
 
 
@@ -139,4 +156,5 @@ if __name__ == "__main__":
         os.system('cls')
     else:
         os.system('clear')
+    at.start_record()
     at.stream()
