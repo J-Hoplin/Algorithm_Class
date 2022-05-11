@@ -22,3 +22,7 @@ Contributers
   - [Quick Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
   - [Selection Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
   - [Counting Sort](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
+
+### Search Tree
+
+  - [Binary Search Tree](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
