@@ -26,3 +26,5 @@ Contributers
 ### Search Tree
 
   - [Binary Search Tree](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
+
+### Hash
