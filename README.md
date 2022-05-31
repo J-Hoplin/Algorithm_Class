@@ -28,3 +28,6 @@ Contributers
   - [Binary Search Tree](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
 
 ### Hash
+
+  - [Chained Hash](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Hashing/Python/ChainedHash.py)
+  - [OpenAddress Hash](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Hashing/Python/OpenAddressHash.py)
