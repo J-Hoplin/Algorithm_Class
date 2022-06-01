@@ -34,8 +34,8 @@ Contributers
   **Readme를 확인해주세요 : [Readme.md](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Graph%20Algorithm/Readme.md)**
   - [BFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/BFS)
   - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
-    - 연관된 문제 : [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260)
-      - [Solution]()
+    - 연관된 문제
+      - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_1260.py)
 ### Hash
 
   - [Chained Hash](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Hashing/Python/ChainedHash.py)
