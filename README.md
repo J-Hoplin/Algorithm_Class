@@ -1,4 +1,6 @@
 # Algorithm : 3rd Grad / 1st Semester
+### Looking for Contributor
+자신만의 소스코드를 공유하거나, 더 나은 소스코드를 위해 같이 개선해 나아갈 분들은 언제든지 환영입니다!
 ***
 Subject
   - 알고리즘 및 실습 / 3학년 1학기 전공필수 / prof. 신지애
