@@ -27,6 +27,13 @@ Contributers
 
   - [Binary Search Tree](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
 
+### Graph Algorithm
+
+  - [BFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/BFS)
+
+  - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
+
+
 ### Hash
 
   - [Chained Hash](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Hashing/Python/ChainedHash.py)
