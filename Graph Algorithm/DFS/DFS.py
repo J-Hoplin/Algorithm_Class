@@ -1,6 +1,15 @@
-from this import d
 from typing import MutableSequence,Any
 from collections import deque
+
+# 일반적인 탐색만 한다고 가정
+def DFS(G:dict,Node:Any=None,visited:MutableSequence=list()):
+    if not Node:
+        Node = list(G.keys())[0]
+    print(Node,end=" ")
+    visited.append(Node)
+    for i in G[Node]:
+        if i not in visited:
+            DFS(G,i,visited)
 
 # 최대한 책에 있는대로
 def DFS_Another(G:dict) -> str:
@@ -41,3 +50,4 @@ if __name__ == "__main__":
         'M': ['H']
     }
     print(DFS_Another(G))
+    DFS(G)
