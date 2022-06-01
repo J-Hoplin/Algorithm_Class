@@ -26,7 +26,6 @@ def BFS(G: dict, s: Any) -> str:
     check_queue = deque([])
     # 첫 시작노드를 방문 검사 큐에 넣어줍니다
     check_queue.append(s)
-
     # 검사 큐가 비어있을때 까지
     while check_queue:
         n = check_queue.popleft()
@@ -36,7 +35,6 @@ def BFS(G: dict, s: Any) -> str:
             # List(Type : MutableSequence)의 extend를 사용하여 MutableSequence객체를 append하면
             # Unpacking하여 들어갑니다
             check_queue.extend(G[n])
-
     return ' -> '.join(visited)
 
 
