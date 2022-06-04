@@ -7,8 +7,10 @@ class UnionFind(object):
     # 부모 노드를 찾는 메소드
     @classmethod
     def getParent(cls,parent:MutableSequence,n:int) -> int:
+        # n과 n이 가리키고 있는 값이 동일하다면, 해당 값이 최상단 부모 값이므로 반환한다
         if parent[n] == n:
             return n
+        # 다른 경우에는 지속적으로 재귀를 한다
         return cls.getParent(parent,parent[n])
 
     # 두 부모 노드를 합치는 함수 : Union연산
@@ -17,8 +19,11 @@ class UnionFind(object):
         n = cls.getParent(parent,n)
         m = cls.getParent(parent,m)
         # 부모값을 합칠때는 더 작은 쪽으로 합친다
+
+        # n이 m보다 작은 경우, m의 부모를 n으로 지정
         if n < m:
             parent[m] = n
+        # m이 n보다 작은 경우 n의 부모를 m으로 지정
         else:
             parent[n] = m
 
