@@ -53,6 +53,8 @@ def Prim(startingpoint:int,G:MutableSequence) -> None:
                 # 만약 기존의 cost보다 이 노드로부터 연결할 수 있는 cost가 더 적다면
                 # 이 노드를 통해 연결하는 cost로 변경한다.
                 if costs[j] > G[nextNode][j]:
+                    # 이 부분이 프림 알고리즘에서 이완이 일어나는 부분이다
+                    # 이완(Relaxation) : 정점에 변동이 일어나는것을 의미한다.
                     costs[j] = G[nextNode][j]
     print(' -> '.join(result))
 
