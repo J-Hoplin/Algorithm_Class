@@ -45,6 +45,10 @@ Contributers
   - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
     - 연관된 문제
       - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_1260.py)
+
+  #### Minimum Spanning Tree(최소신장트리)
+
+  - [Prim's Algorithm]()
     
   #### Topological Sort(위상정렬)
 
