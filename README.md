@@ -46,8 +46,8 @@ Contributers
     
   #### Topological Sort(위상정렬)
 
-  - [Topological Sort]()
+  - [Topological Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/TopologicalSort)
 
   #### Shortest Path(최단경로)
 
-  - [Floyd Warshall](https://github.com/J-hoplin1/Algorithm_Class/tree/main/ShortestPath/FloydWarshall%20Algorithm)
+  - [Floyd Warshall](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/FloydWarshall%20Algorithm)
