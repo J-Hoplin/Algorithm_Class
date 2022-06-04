@@ -24,6 +24,8 @@ Contributers
   - [Quick Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
   - [Selection Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
   - [Counting Sort](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
+    - 연관된 문제
+      - [백준 10989 - 수 정렬하기3](https://www.acmicpc.net/problem/10989) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_10989.py)
 
 ### Search Tree
 
