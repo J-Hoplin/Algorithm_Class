@@ -52,4 +52,6 @@ Contributers
 
   #### Shortest Path(최단경로)
 
+  - [Dijkstra Algorithm](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/Dijkstra%20Algorithm)
+
   - [Floyd Warshall](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/FloydWarshall%20Algorithm)
