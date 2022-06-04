@@ -36,12 +36,18 @@ Contributers
 
 ### Graph Algorithm
   
+  #### Graph 기본
+
   **Readme를 확인해주세요 : [Readme.md](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Graph%20Algorithm/Readme.md)**
   - [BFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/BFS)
   - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
     - 연관된 문제
       - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_1260.py)
+    
+  #### Topological Sort(위상정렬)
 
-### Shortest Path(최단경로)
+  - [Topological Sort]()
+
+  #### Shortest Path(최단경로)
 
   - [Floyd Warshall](https://github.com/J-hoplin1/Algorithm_Class/tree/main/ShortestPath/FloydWarshall%20Algorithm)
