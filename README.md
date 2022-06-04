@@ -16,20 +16,20 @@ Contributers
 ***
 ### Sorting
 
-  - [Bubble Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/bubble_sort)
-  - [Heap Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/heap_sort)
-    - [Extra : Priority Queue](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/heap_sort/priority_queue.py) 
-  - [Insertion Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/insertion_sort)
-  - [Merge Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/merge_sort)
-  - [Quick Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
-  - [Selection Sort](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
-  - [Counting Sort](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
+  - [Bubble Sort(버블정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/bubble_sort)
+  - [Heap Sort(힙정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/heap_sort)
+    - [Extra : Priority Queue(우선순위 큐)](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/heap_sort/priority_queue.py) 
+  - [Insertion Sort(삽입정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/insertion_sort)
+  - [Merge Sort(병합정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/merge_sort)
+  - [Quick Sort(퀵정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
+  - [Selection Sort(선택정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
+  - [Counting Sort(계수정렬)](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
     - 연관된 문제
       - [백준 10989 - 수 정렬하기3](https://www.acmicpc.net/problem/10989) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_10989.py)
 
 ### Search Tree
 
-  - [Binary Search Tree](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
+  - [Binary Search Tree(이진 검색트리)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Search%20Tree/BST(Binary%20Search%20Tree))
 
 ### Hash
 
@@ -52,6 +52,6 @@ Contributers
 
   #### Shortest Path(최단경로)
 
-  - [Dijkstra Algorithm](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/Dijkstra%20Algorithm)
+  - [Dijkstra Algorithm(다익스트라)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/Dijkstra%20Algorithm)
 
-  - [Floyd Warshall](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/FloydWarshall%20Algorithm)
+  - [Floyd Warshall(플로이드 워셜)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/ShortestPath/FloydWarshall%20Algorithm)
