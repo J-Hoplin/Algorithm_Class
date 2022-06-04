@@ -48,7 +48,7 @@ Contributers
 
   #### Minimum Spanning Tree(최소신장트리)
 
-  - [Prim's Algorithm]()
+  - [Prim's Algorithm](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Graph%20Algorithm/MST(Mininum%20Spanning%20Tree)/PrimAlgorithm.py)
     
   #### Topological Sort(위상정렬)
 
