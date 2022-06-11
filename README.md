@@ -25,7 +25,7 @@ Contributers
   - [Selection Sort(선택정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/selection_sort)
   - [Counting Sort(계수정렬)](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
     - 연관된 문제
-      - [백준 10989 - 수 정렬하기3](https://www.acmicpc.net/problem/10989) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_10989.py)
+      - [백준 10989 - 수 정렬하기3](https://www.acmicpc.net/problem/10989) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Sorting%20Algorithm/BOJ_10989.py)
 
 ### Search Tree
 
@@ -53,7 +53,6 @@ Contributers
   - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
     - 연관된 문제
       - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Graph%20Algorithm/BOJ_1260.py)
-
       - [백준 2606 - 바이러스](https://www.acmicpc.net/problem/2606) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Graph%20Algorithm/BOJ_2606.py)
 
   #### Minimum Spanning Tree(최소신장트리)
