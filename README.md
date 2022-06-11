@@ -44,6 +44,9 @@ Contributers
 
   - [Fibonacci Number](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Dynamic%20Programming/Fibonacci.py)
 
+    - 연관된 문제
+      - [백준 24416 - 알고리즘수업 피보나치1](https://www.acmicpc.net/problem/24416) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Dynamic%20Programming/BOJ_24416.py)
+
 ### Graph Algorithm
   
   #### Graph 기본
