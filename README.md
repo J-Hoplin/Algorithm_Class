@@ -52,7 +52,9 @@ Contributers
   - [BFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/BFS)
   - [DFS](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Graph%20Algorithm/DFS)
     - 연관된 문제
-      - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/BOJ_1260.py)
+      - [백준 1260 - DFS/BFS](https://www.acmicpc.net/problem/1260) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Graph%20Algorithm/BOJ_1260.py)
+
+      - [백준 2606 - 바이러스](https://www.acmicpc.net/problem/2606) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Graph%20Algorithm/BOJ_2606.py)
 
   #### Minimum Spanning Tree(최소신장트리)
 
