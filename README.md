@@ -43,9 +43,11 @@ Contributers
 ### Dynamic Programming(동적계획법)
 
   - [Fibonacci Number](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Dynamic%20Programming/Fibonacci.py)
-
     - 연관된 문제
       - [백준 24416 - 알고리즘수업 피보나치1](https://www.acmicpc.net/problem/24416) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Dynamic%20Programming/BOJ_24416.py)
+  - [LCS](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Dynamic%20Programming/LCS.py)
+    - 연관된 문제
+      - [백준 9251 - LCS](https://www.acmicpc.net/problem/9251) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Dynamic%20Programming/BOJ_9251.py)
 
 ### Graph Algorithm
   
