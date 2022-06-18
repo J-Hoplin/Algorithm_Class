@@ -33,6 +33,7 @@ Contributers
 
   - [Heap](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Priority%20Queue/Heap)
   - [Priority Queue using Heap](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Priority%20Queue/PriQueue)
+    - 위에서 구현한 Heap을 사용하여 구동됩니다. Priority Queue를 보시기 전에 Heap을 모르신다면, [Heap](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Priority%20Queue/Heap)을 공부하고 보시는걸 추천드립니다.
 
 ### Search Tree
 
