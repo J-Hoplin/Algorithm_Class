@@ -21,7 +21,6 @@ Contributers
 
   - [Bubble Sort(버블정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/bubble_sort)
   - [Heap Sort(힙정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/heap_sort)
-    - [Extra : Priority Queue(우선순위 큐)](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/heap_sort/priority_queue.py) 
   - [Insertion Sort(삽입정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/insertion_sort)
   - [Merge Sort(병합정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/merge_sort)
   - [Quick Sort(퀵정렬)](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Sorting/quick_sort)
@@ -29,6 +28,11 @@ Contributers
   - [Counting Sort(계수정렬)](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Sorting/counting_sort)
     - 연관된 문제
       - [백준 10989 - 수 정렬하기3](https://www.acmicpc.net/problem/10989) : [Solution](https://github.com/J-hoplin1/Algorithm_Class/blob/main/Related%20PS%20Problem/Sorting%20Algorithm/BOJ_10989.py)
+
+### Priority Queue
+
+  - [Heap]()
+  - [Priority Queue using Heap]()
 
 ### Search Tree
 
