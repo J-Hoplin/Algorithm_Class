@@ -31,8 +31,8 @@ Contributers
 
 ### Priority Queue
 
-  - [Heap]()
-  - [Priority Queue using Heap]()
+  - [Heap](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Priority%20Queue/Heap)
+  - [Priority Queue using Heap](https://github.com/J-hoplin1/Algorithm_Class/tree/main/Priority%20Queue/PriQueue)
 
 ### Search Tree
 
